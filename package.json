@@ -1,0 +1,36 @@
+{
+  "name": "fifo-loop",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/ramitos/fifo-loop",
+  "bugs": {
+    "url": "http://github.com/ramitos/fifo-loop/issues",
+    "email": "mail@sergioramos.me"
+  },
+  "license": {
+    "url": "https://raw.github.com/ramitos/fifo-loop/master/license",
+    "type": "MIT"
+  },
+  "author": "Sérgio Ramos <mail@sergioramos.me> (http://sergioramos.me)",
+  "main": "src/fifo-loop.js",
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/fifo-loop.git"
+  },
+  "scripts": {
+    "test": "make test test-coveralls"
+  },
+  "devDependencies": {
+    "mocha-lcov-reporter": "0.0.x",
+    "jscoverage": "0.3.x",
+    "coveralls": "2.0.x",
+    "mocha": "1.10.x"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
