@@ -1,7 +1,7 @@
 {
   "name": "fifo-loop",
   "version": "0.0.1",
-  "description": "",
+  "description": "fifo call stack with looping",
   "keywords": [],
   "homepage": "https://github.com/ramitos/fifo-loop",
   "bugs": {
